@@ -1,0 +1,51 @@
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+
+#slider_container {
+    width: 50%;
+    margin: auto;
+    position: relative; 
+    /* overflow: hidden;  */
+}
+
+.slide {
+    width: 100%;
+    position: absolute;
+    top:0;
+    padding: 1.5em;
+}
+
+.slide img {
+    width: 100%;
+}
+
+.slideNum {
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    width: 30px;
+    background-color: white;
+    font-weight: 700;
+    font-size: 20px;
+    padding: 5px 8px;
+    border: 0 solid;
+    border-radius: 50%;
+}
+
+.in_out {
+    animation-name: inOut;
+
+}
+
+@keyframes inOut {
+    from{
+        
+    }
+    to{
+    
+    }
+}
